@@ -1,4 +1,4 @@
-# DocVoice-Agent
+# DocVoiceAI-Agent
 
 DocVoice-Agent is an intelligent document and voice assistant that lets users upload documents, ask questions about them, and interact through voice-based workflows. The system combines a modern React frontend, a Node.js backend, and a Python ML service to provide a complete experience for document understanding, retrieval-augmented generation (RAG), and speech analysis.
 
