@@ -1,8 +1,9 @@
-# DocVoice-Agent
+<img width="1918" height="900" alt="image" src="https://github.com/user-attachments/assets/b173f135-26e0-4723-8259-5f3efcefce25" /># DocVoice-Agent
 
 DocVoice-Agent is an intelligent document and voice assistant that lets users upload documents, ask questions about them, and interact through voice-based workflows. The system combines a modern React frontend, a Node.js backend, and a Python ML service to provide a complete experience for document understanding, retrieval-augmented generation (RAG), and speech analysis.
 
-![Project UI Placeholder]
+<img width="1918" height="911" alt="image" src="https://github.com/user-attachments/assets/0a150646-e29a-4e2d-9c3e-2e1659e31e17" />
+
 
 ## Why this project?
 
@@ -43,8 +44,9 @@ The goal is to make document-based AI assistance more useful, accessible, and pe
 - Python
 - FastAPI
 - FAISS
-- OpenAI embeddings / language models
+- OpenAI API
 - Whisper-based speech processing
+- Sentence Transformer
 
 ## Project Structure
 
@@ -58,7 +60,7 @@ The goal is to make document-based AI assistance more useful, accessible, and pe
 2. User uploads a document
 3. The system processes and indexes the content
 4. User asks questions about the uploaded material
-5. The app returns context-aware answers
+5. The app returns context-aware answers along with sources
 6. Voice input can also be analyzed for transcription and emotion
 7. The assistant can trigger built-in tools such as generating a PDF, sending an email, or scheduling a Google Meet
 
@@ -145,16 +147,25 @@ These actions make the assistant more useful for real productivity tasks, not ju
 ## Screenshots
 
 - Login / authentication flow
+  <img width="1918" height="911" alt="image" src="https://github.com/user-attachments/assets/fc6d2bec-a4e8-4b54-b3fe-c828837b23e7" />
+  <img width="1918" height="908" alt="image" src="https://github.com/user-attachments/assets/a4e81864-eede-445c-b052-6164f293bea0" />
+  
 - Dashboard and document management
-- Chat interaction panel
+  <img width="1918" height="911" alt="image" src="https://github.com/user-attachments/assets/27ba1df0-37f0-4bcd-8b73-78daad82bdb6" />
+  
 - Voice input experience
+  <img width="1482" height="196" alt="image" src="https://github.com/user-attachments/assets/0100d936-e397-4b9b-9851-976b72b66ab3" />
+
 - Tool-based actions such as PDF generation, email sending, and meeting scheduling
+  <img width="1918" height="900" alt="image" src="https://github.com/user-attachments/assets/0693eb10-3672-44e5-a82e-2626cadece01" />
+
 
 ## Future Improvements
 
 - Better authentication and role-based access
 - Support for more document formats
 - Improved chunking and retrieval accuracy
+- multi document processing enhancement
 - Better UI/UX and analytics
 - Deployment to cloud platforms
 
